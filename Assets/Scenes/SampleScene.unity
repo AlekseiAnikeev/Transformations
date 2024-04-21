@@ -440,6 +440,8 @@ GameObject:
   - component: {fileID: 1015441443}
   - component: {fileID: 1015441442}
   - component: {fileID: 1015441441}
+  - component: {fileID: 1015441447}
+  - component: {fileID: 1015441446}
   - component: {fileID: 1015441445}
   m_Layer: 0
   m_Name: Movement Expansion Cube
@@ -543,7 +545,33 @@ MonoBehaviour:
   m_GameObject: {fileID: 1015441440}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3c5b2c9aca29b5c43ba8bc5b1fdcc0d9, type: 3}
+  m_Script: {fileID: 11500000, guid: 565f0024f7c7e5f4e9705536c4e0a750, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _speed: 0.1
+--- !u!114 &1015441446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015441440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab01b93b4f7d2c34e86a5648984febea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _speed: 30
+--- !u!114 &1015441447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1015441440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ecaa462c1c55e4c8b8ef362e88fa9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1062564201
